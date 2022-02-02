@@ -1,0 +1,107 @@
+/*--------------------------------------------------------------
+# Background
+--------------------------------------------------------------*/
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../assets/img/events-bg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 1;
+  background-color: rgba(12, 11, 10, 0.5);
+}
+
+/*--------------------------------------------------------------
+# Events
+--------------------------------------------------------------*/
+.event-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 85%;
+  margin: auto;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.event-head {
+  font-size: 18px;
+  text-align: center;
+  margin: auto;
+  margin-top: 55px;
+  margin-bottom: 70px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.event-container img {
+  width: 40vw;
+  padding-right: 30px;
+}
+.event-content h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffb03b;
+  margin: 0;
+}
+.event-content h2 {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-family: 700;
+  border-bottom: 2px solid #ffb03b;
+  width: fit-content;
+  margin: 0;
+}
+.event-content ul {
+  list-style: none;
+}
+.event-content li {
+  margin: 10px;
+  font-size: 16px;
+}
+.event-content i {
+  color: #ffb03b;
+  font-size: 18px;
+  font-weight: 500;
+}
+/*----------------
+# slider
+------------------*/
+.mySlides {
+  display: none;
+}
+/* Slideshow container */
+
+.slideshow-container {
+  margin: auto;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 3px 50px 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #ffb03b;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    /* left: -50; */
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

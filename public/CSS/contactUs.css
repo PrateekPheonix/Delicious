@@ -1,0 +1,205 @@
+/*--------------------------------------------------------------
+# Contact Us
+--------------------------------------------------------------*/
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-head {
+  font-size: 20px;
+  margin-top: 35px;
+  font-weight: 700;
+  color: #5f5950;
+}
+.contact-head h1 {
+  margin-bottom: 0;
+}
+.contact-tag {
+  width: 40%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.form-container {
+  width: 85%;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 140px;
+}
+/*---------------
+# Form info
+------------------*/
+.form-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  padding: 30px;
+}
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.info-content h1 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 0;
+  color: #433f39;
+  margin-bottom: 5px;
+}
+
+.info-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #7a7368;
+}
+.info-icon {
+  width: 44px;
+  height: 44px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffb03b;
+  border-radius: 50px;
+  background: #fff6e8;
+  margin-right: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.info-icon:hover {
+  background-color: #ffb03b;
+  color: #fff;
+}
+
+/*---------------
+# Form
+------------------*/
+.form-main {
+  padding: 30px;
+  box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+  width: 100%;
+  background: #fff;
+}
+.row-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form input,
+.form textarea {
+  margin: 15px 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+  padding: 7px 10px;
+  font-family: inherit;
+}
+#name,
+#email {
+  width: 100%;
+  height: 35px;
+}
+#subject {
+  width: 95%;
+  height: 35px;
+}
+
+#message {
+  width: 95%;
+}
+
+.submit {
+  margin: 0 auto;
+  width: 14%;
+  margin-top: 12px;
+}
+
+.submit-btn {
+  font-size: 16px;
+  padding: 14px;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  text-align: center;
+  background: #ffb03b;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+/*---------------
+# Modal
+------------------*/
+.modal {
+  z-index: 99;
+  background-color: #0000007e;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  display: none;
+}
+
+.modal-container {
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 10px;
+  width: 30%;
+  position: relative;
+  top: 30%;
+  margin: 0 auto;
+}
+
+.success {
+  background-color: #47c9a2;
+  height: 110px;
+  font-size: 70px;
+  color: #fff;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.success i {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.modal-content h3 {
+  font-size: 36px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.modal-content p {
+  font-size: 18px;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.modal-btn {
+  text-align: center;
+  background-color: #ffb03b;
+  color: #fff;
+  margin: 30px auto;
+  width: 30%;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,135 @@
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about-head {
+  font-size: 20px;
+  margin-top: 35px;
+  font-weight: 700;
+  color: #5f5950;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about-head h1 {
+  margin-bottom: 0;
+}
+.about {
+  background-color: #fffaf3;
+}
+.imgBx {
+  width: 97%;
+}
+
+.boxImage {
+  width: 45%;
+  margin-left: 40px;
+  float: left;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+
+.content {
+  padding: 35px 30px;
+  padding-bottom: 65px;
+}
+.conText {
+  margin-right: 25px;
+}
+.content h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #5f5950;
+}
+.content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.content p {
+  font-size: 15px;
+  color: #848484;
+}
+.content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content ul li + li {
+  margin-top: 15px;
+}
+.content ul li {
+  padding-left: 26px;
+}
+
+/*--------------------------------------------------------------
+# Whu Us
+--------------------------------------------------------------*/
+.why-us {
+  margin-top: 6%;
+  margin-bottom: 100px;
+}
+h2 {
+  width: 50%;
+  height: 30%;
+  margin-left: 25.5%;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #444444;
+}
+.whytext {
+  margin-left: 5%;
+}
+#simple {
+  color: #ffb03b;
+}
+.why-us p {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-weight: 300;
+}
+.why-us .box {
+  width: 27%;
+  height: 27%;
+  transition: all ease-in-out 0.4s;
+  margin: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+.why-us .box span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffcf88;
+  padding-left: 30px;
+  padding-top: 40px;
+}
+.title p {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.why-us .box h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 30px;
+  margin: 20px 0;
+  color: #6c665c;
+}
+.why-us .box p {
+  color: grey;
+  font-size: 15px;
+  margin-left: 9%;
+  margin-right: 12%;
+  margin-bottom: 10%;
+}
+.why-us .box:hover {
+  background: #ffb03b;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+  transition: all 0.3s ease-in-out;
+}
+.why-us .box:hover span,
+.why-us .box:hover h4,
+.why-us .box:hover p {
+  color: #fff;
+}

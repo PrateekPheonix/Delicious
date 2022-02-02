@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i"
+        rel="stylesheet">
+    <!-- Icons  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/contactUs.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <!-- ======= Header ======= -->
+    <header class="header" style="  background: rgba(26, 24, 22, 0.85);">
+        <div class="logo">
+            <h1><a href="/">Delicious</a></h1>
+        </div>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <ul>
+                <li><a class="nav-link" href="/">Home</a></li>
+                <li><a class="nav-link" href="/about">About</a></li>
+                <li><a class="nav-link"  href="/menu">Menu</a></li>
+                <li><a class="nav-link" href="/specials">Specials</a></li>
+                <li><a class="nav-link" href="/events">Events</a></li>
+                <li><a class="nav-link" href="/chefs">Chefs</a></li>
+                <li><a class="nav-link" href="/gallery">Gallery</a></li>
+                <li><a class="nav-link" href="/testimonials">Testimonials</a></li>
+                <li><a class="nav-link" id="select" href="./contact">Contact</a></li>
+            </ul>
+            <a href="/booktable" class="book-table">Book a table</a>
+        </nav>
+    </header>
+    <!-- ======= Conatct Us ======= -->
+    <div class="contact">
+        <div class="contact-head">
+            <h1><span id="select">Contact</span> Us</h1>
+        </div>
+        <div class="contact-tag">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, aut facilis autem reprehenderit dolor illo culpa! </p>
+        </div>
+        <div class="form-container">
+            <div class="form-info">
+                <div class="info-container">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h1>Location:</h1>
+                        <p>A108 Adam Street</p>
+                        <p>New York, NY 535022</p>
+                    </div>
+                </div>
+                <div class="info-container">
+                    <div class="info-icon">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div class="info-content">
+                        <h1>Open Hours:</h1>
+                        <p>Monday-Saturday:</p>
+                        <p>11:00 AM - 2300 PM</p>
+                    </div>
+                </div>
+                <div class="info-container">
+                    <div class="info-icon">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="info-content">
+                        <h1>Email:</h1>
+                        <p>info@example.com</p>
+                        <p>contact@example.com</p>
+                    </div>
+                </div>
+                <div class="info-container">
+                    <div class="info-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h1>Call:</h1>
+                        <p>+91 9599865325</p>
+                        <p>+91 8421021671</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-main">
+                <form class="form" action="https://formspree.io/f/xnqwppvn" method="POST">
+                    <div class="row-1">
+                        <input name="name" id="name" type="text" placeholder="Your Name" required>
+                        <input name="email" id="email" type="email" placeholder="Your Email" required>
+                    </div>
+                    <input name="subject" id="subject" type="text" placeholder="Subject" required>
+                    <textarea name="message" id="message" rows="7" placeholder="Message" required></textarea>    
+                    <div class="submit">
+                        <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <!-- ======= Modal ======= -->
+        <div class="modal">
+            <div class="modal-container">
+                <div class="success">
+                    <i class="far fa-check-circle"></i>
+                </div>
+                <div class="modal-content">
+                    <h3>Thanks!</h3>
+                    <p>Your message has been recieved</p>
+                </div>
+                <div class="modal-btn">Okay</div>
+            </div>
+        </div>
+    </div> 
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <h3>Delicious</h3>
+            <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.
+            </p>
+            <div class="social-links">
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></i></a>
+                <a href="#" class="google-plus"><i class="fab fa-skype"></i></a>
+                <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; Copyright <strong><span>Delicious</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+    <script src="../JS/contactus.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+</body>
+</html>
